@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    border: 0;
+}
+ body{
+    text-align: center;
+    background-image: linear-gradient(45deg, orange,coral, beige, rgb(128, 58, 0));
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 250;
+    height: 100vh;
+} 
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1 {
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    padding: 50px 5px 50px 5px;
+}
+#clock {
+    color: black;
+    display: inline-block;
+    font-size: 30px;
+}
+
+#clock > div {
+    padding: 15px;
+    border-radius: 5px;
+    background: turquoise;
+    display: inline-block;
+    width: 4em;
+}
+
+#clock div > span {
+    padding: 15px;
+    border-radius: 5px;
+    background: cadetblue;
+    display: inline-block;
+}
+
+.value {
+    padding-top: 7px;
+    font-size: 25px;
+}
